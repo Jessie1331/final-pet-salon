@@ -1,0 +1,348 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(88, 88, 210);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+:root{
+    --primary: #fae1dd;
+    --secondary: #fec5bb;
+    --secondary2: #f8edeb
+
+}
+body{
+    background-color: rosybrown;
+
+   
+    
+}
+p{
+    line-height: 1.5;
+
+}
+/*utilities*/
+.grid-two-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-inline-start: 5%;
+padding-inline-end: 20px;
+}
+.grid-two-container h2{
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+.container{
+   
+
+    font-weight: 800;
+    font-size: 90px;
+    text-align: center;
+    color: black;
+
+  
+    width: 60%;
+    text-wrap: 30px;
+    
+    
+
+
+}
+.container img{
+    height: 63%;
+    padding-top: 30px;
+    width: 100%;
+
+}
+.grid-two-container img{
+    width: 80%;
+
+}
+.grid-two-container p{
+
+
+    font-size: 22px;
+    margin-left: auto;
+    
+}
+/*header*/
+.site-header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-lQ9qOq0pbzUDClulR9jTb_D2EicRi5KGQ&usqp=CAU);
+    
+    height: 40vh;
+    background-repeat: repeat;
+    image-resolution: 100%;
+    align-items: center;
+
+    
+
+
+}
+.site-header h1{
+    align-content: center;
+    font-size: 90px;
+    text-decoration: wavy;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+nav a{
+    color: white;
+}
+
+
+footer{
+    background-image: url(https://acutabovepetsalon.net/images/bottompage_animals.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    height: 20vh;
+    border-image-repeat: inherit;
+    width: 100%;
+    position: sticky;
+    
+    
+    padding-top: 5%;
+    margin-top: 5%;
+}
+
+
+
+
+/*main*/
+.menu{
+    background-color: var(--secondary2);
+    text-decoration: black;
+    font-size: 30px;
+    text-align: right;
+    justify-content: space-between;
+    pointer-events: painted;
+}
+
+/*main*/
+
+.img-container{
+    background-color:  var(--secondary);
+}
+
+
+
+/*contact*/
+.contact-us{
+    background-image: url(../img/front-view-beautiful-dog-with-copy-space_23-2148786561.avif);
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    
+
+}
+
+
+.contact-container h2{
+    margin-top: left;
+    font-size: 7rem;
+    text-decoration: wavy;
+    font-style: italic;
+    font-weight: 700;
+    margin: 1rem;
+
+
+}
+.contact-container p{
+    
+    width: 50%;
+    font-size: 30px;
+    margin: 1rem;
+    padding-top: 15%;
+    
+}
+.contact-menu a{
+    color: black;
+    font-size: 20px;
+    
+}
+iframe{
+    margin: 1rem;
+}
+
+.form-label{
+    text-align: right;
+    text-decoration: underline;
+    font-weight: 600;
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10%;
+    margin-left: 15%;
+}
+
+.form{
+ 
+    align-items: center;  
+    width: 70%;
+    align-items: inherit;
+    background-color: cadetblue; 
+    margin-left: 15%;
+    padding-bottom: 5%;
+
+
+
+}
+/*register*/
+/* .errors lable{
+    color: red;
+
+}
+.error{
+
+    color: red;
+    
+}
+div.errors{
+    border: 2px solid red;
+    color: red;
+    width: 50%;
+    padding: 10px;
+} */
+.form-title{
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    font-size: 88px;
+    padding: 50px;    
+  
+
+}
+
+.form-control{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 60%;
+    padding: 16px 16px;
+    margin: 0px 0px 0px 226px;
+    align-self: center;
+
+
+  }
+  .form-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   margin-left: 45%;
+   margin-top: 30px;
+  }
+
+  .reg-container{
+    background-image: url(/img/body.avif);
+    width: 100%;
+
+    background-repeat: repeat; 
+ }
+
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #f2f2f2;
+    
+
+
+    font-size: 22px;
+    
+
+
+
+  }
+  .tbl-title{
+    margin-left: 45%;
+    font-size: 44px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    border: black;
+    
+    width: 8%;
+    text-align: center;
+    
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #177588;
+    color: white;
+  }
+  /*service*/
+.services{
+    background-image: url(../img/body.avif);
+    background-size: cover;
+    background-position: center;
+}
+  .float-right
+{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 18%;
+    
+
+}
+.float-left{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 17%;
+}

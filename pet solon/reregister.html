@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/mystyle.css">
+  <title>Pet Solon Prjects</title>
+  <link rel="stylesheet" href="./style/mystyle.css">
+</head>
+
+<body class="reg-container">
+
+  <header class="site-header">
+
+  </header>
+  <nav>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">About</a> </li>
+
+
+    </ul>
+  </nav>
+
+
+  <p><span id="numberOfPets"></span></p>
+
+  <div class="form">
+    <h2 class="form-title">Registration Form</h2>
+    <div>
+      <label class="form-label">Date:</label>
+      <input type="date" class="form-control" id="txtDate">
+    </div>
+    <div>
+      <label class="form-label">Name: </label>
+      <input type="text" class="form-control" id="txtName">
+    </div>
+    <div>
+      <label class="form-label">Age: </label>
+      <input type="number" class="form-control" id="txtAge">
+    </div>
+    <div>
+      <label class="form-label">Gender: </label>
+      <input type="text" class="form-control" id="txtGender">
+    </div>
+    <div>
+      <label class="form-label">Breed: </label>
+      <input type="text" class="form-control" id="txtBreed">
+    </div>
+    <div>
+      <label class="form-label">Service: </label>
+      <select class="form-control" id="txtService">
+        <option value="" disabled selected>-- Select an option --</option>
+        <option value="grooming">Grooming</option>
+        <option value="nails">Nail Cut</option>
+        <option value="vaccine">Vaccines</option>
+      </select>
+    </div>
+    <div>
+      <label class="form-label">Type: </label>
+      <select class="form-control" id="txtType">
+        <option value="" disabled selected>-- Select an option --</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="bird">Bird</option>
+        <option value="hamster">Hamster</option>
+      </select>
+    </div>
+    <div>
+      <label class="form-label">Owner: </label>
+      <input type="text" class="form-control" id="txtOwner">
+    </div>
+    <div>
+      <label class="form-label">Phone: </label>
+      <input type="tel" class="form-control" id="txtPhone">
+    </div>
+    <div>
+      <label class="form-control">Photo:<p>Upload Profile image</p></label>
+      <input type="file" class="form-control" disabled id="txtPhoto">
+    </div>
+    <button class="btn form-btn" onclick="register()">Register</button>
+  </div>
+  <div id="pets">
+  </div>
+  <table id="tbl">
+    <h2 class="tbl-title">Pets</h2>
+    <img src="./img/petshop.jpg" style="float: left; flex-direction: inherit; width: 12%;">
+    <thead id="tblhead">
+
+      <tr>
+        <th>Date</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Breed</th>
+        <th>Service</th>
+        <th>Type</th>
+        <th>Owner</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody id="tblbody">
+
+    </tbody>
+  </table>
+
+  </div>
+
+
+  <script src="./scripts/reregister.js"></script>
+  <script src="https://kit.fontawesome.com/32e02f3748.js" crossorigin="anonymous"></script>
+</body>
+<footer></footer>
+
+</html>
